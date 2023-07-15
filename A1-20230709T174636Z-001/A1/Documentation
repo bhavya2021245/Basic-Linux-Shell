@@ -1,0 +1,43 @@
+INTERNAL COMMANDS
+1.Echo (display a line of text)
+   Command line options
+     -n (do not output the trailing newline)
+     -E(disable interpretation of backslash escapes(default))
+2.pwd(print name of current/working directory)
+      -L(prints the symbolic path)
+      -P(prints the actual path)
+3.cd(change the current working directory)
+      ~(used to change directory to the home directory.)
+      ..(used to change the Directory to its previous one)
+
+External Commands
+1.cat
+(reads data from file and gives their content as output.It
+helps us to create,view,concatenate files)
+-n (to view contents of a file preceding with line numbers)
+-E(Will highlight the end of line)
+2.date(display the system date and time and also used to
+set date and time of the system)
+-u(Displays the time in GMT(Greenwich Mean
+Time)/UTC(Coordinated Universal Time )time zone. )
+-I(Displays the yy-mm-dd)
+3.mkdir(allows the user to create directories, create
+multiple directories at once as well as set the permissions
+for the directories.)
+-v(It displays a message for every directory created. )
+-m(This option is used to set the file modes, i.e.
+permissions, etc. for the created directories.)
+4 ls(It will show the full list or content of your directory.)
+~(show all the hidden files in the directory It will show all
+the files including the ‘.’ (current directory) )
+-a(show all the hidden files in the directory It will show all
+the files including the ‘.’ (current directory) and ‘..’ (parent
+directory).)
+5.rm(used to remove objects such as files, directories,
+symbolic links and so on,To be more precise, rm removes
+references to objects from the filesystem, where those
+objects might have had multiple references (for example, a
+file with two different names). By default, it does not
+remove directories. )
+-v(It will give the information about which is removed)
+-i(It will ask the user for removing the file
